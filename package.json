@@ -1,6 +1,6 @@
 {
   "name": "hubot-ssh2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "willgarcia <garcia.rodriguez.william@gmail.com>",
   "description": "Perform commands over SSH.",
   "repository": {
@@ -17,9 +17,9 @@
     "hubot-scripts",
     "ssh"
   ],
-  "dependencies": {    
+  "dependencies": {
+    "@slack/client": "^5.0.2",
     "simple-ssh": "^0.8.6"
-
   },
   "devDependencies": {},
   "engines": {
