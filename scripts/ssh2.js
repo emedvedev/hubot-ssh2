@@ -25,7 +25,7 @@ module.exports = function (robot) {
       ssh = new SSH({
         user,
         host,
-        key: fs.readFileSync(`${homedir}/.ssh/id_rsa`, { encoding: 'utf8' }),
+        key: fs.readFileSync(`${homedir}/.ssh/hubot_rsa`, { encoding: 'utf8' }),
       });
 
     ssh.on('error', (err) => {
